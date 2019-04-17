@@ -9,8 +9,14 @@ html, body, p{
 	padding: 0px;
 }
 
+/*
 
+#4920A9
+#BC1D8D
+#E79A10
+#1A879C
 
+*/
 /*============================*/
 
 body{
@@ -118,13 +124,21 @@ body{
 .bgc_color_profile{
 	background-color: #C7E6EB;
 }
-.bg img{
+
+img{
 	position: absolute;
 	left: 45px;	
 	display: inline-block;
 	width: 36;
 	height: 36px;
 	cursor: pointer;
+	filter: brightness(0);
+	transition-duration: 0.3s;
+}
+
+.img_color{
+	filter: brightness(1);
+	transition-duration: 0.3s;	
 }
 
 p{
@@ -138,7 +152,22 @@ p{
 	width: 80px;
 	opacity: 0;
 	transition-duration: 0.3s;
+}
 
+#bg1 p{
+	color: #4920A9;
+}
+
+#bg2 p{
+	color: #BC1D8D;
+}
+
+#bg3 p{
+	color: #E79A10;
+}
+
+#bg4 p{
+	color: #1A879C;
 }
 
 /*.bg:hover{

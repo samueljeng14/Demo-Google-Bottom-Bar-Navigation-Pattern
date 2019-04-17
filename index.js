@@ -17,7 +17,13 @@ $(document).ready(function() {
 		$(".container").addClass('container_shadow_home');
 		$(".container").removeClass('container_shadow_like');
 		$(".container").removeClass('container_shadow_search');
-		$(".container").removeClass('container_shadow_profile');	
+		$(".container").removeClass('container_shadow_profile');
+
+		$("#bg1 img").addClass('img_color');
+		$("#bg2 img").removeClass('img_color');
+		$("#bg3 img").removeClass('img_color');
+		$("#bg4 img").removeClass('img_color');
+
 
 	});
 	$("#bg2").click(function() {
@@ -38,7 +44,12 @@ $(document).ready(function() {
 		$(".container").removeClass('container_shadow_home');
 		$(".container").addClass('container_shadow_like');
 		$(".container").removeClass('container_shadow_search');
-		$(".container").removeClass('container_shadow_profile');			
+		$(".container").removeClass('container_shadow_profile');
+
+		$("#bg1 img").removeClass('img_color');
+		$("#bg2 img").addClass('img_color');
+		$("#bg3 img").removeClass('img_color');
+		$("#bg4 img").removeClass('img_color');		
 	});
 	$("#bg3").click(function() {
 		$(this).addClass('bg_on');
@@ -58,7 +69,12 @@ $(document).ready(function() {
 		$(".container").removeClass('container_shadow_home');
 		$(".container").removeClass('container_shadow_like');
 		$(".container").addClass('container_shadow_search');
-		$(".container").removeClass('container_shadow_profile');		
+		$(".container").removeClass('container_shadow_profile');
+
+		$("#bg1 img").removeClass('img_color');
+		$("#bg2 img").removeClass('img_color');
+		$("#bg3 img").addClass('img_color');
+		$("#bg4 img").removeClass('img_color');			
 	});
 	$("#bg4").click(function() {
 		$(this).addClass('bg_on');
@@ -78,6 +94,11 @@ $(document).ready(function() {
 		$(".container").removeClass('container_shadow_home');
 		$(".container").removeClass('container_shadow_like');
 		$(".container").removeClass('container_shadow_search');
-		$(".container").addClass('container_shadow_profile');			
+		$(".container").addClass('container_shadow_profile');
+
+		$("#bg1 img").removeClass('img_color');
+		$("#bg2 img").removeClass('img_color');
+		$("#bg3 img").removeClass('img_color');
+		$("#bg4 img").addClass('img_color');				
 	});		
 });
